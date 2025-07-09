@@ -1,6 +1,7 @@
 Aim: To learn How input and Output works in c++.
-Apparatus: GNU gcc Compiler for c++ if running locally, Code Editor any(like VS code) or Online C++ compiler
+Apparatus: GNU g++ Compiler for c++ if running locally, Code Editor any(like VS code) or Online C++ compiler
 
+NOTE: You may visit youtube for any query related downloading g++ compiler and setting up environment.
 Program Explaination:
 The program begins with #include. The implementation of this code will incorporate the iostream header file where both input and output can take place (in most cases, the commands cout and cin). If this line isn't added to the program, the compiler will not know what the standard input/output commands are at all. 
 Next is the line using namespace std;. The std namespace contains all of the standard library functions available in C++. By writing this line, we can call the functions, cout and cin, without prepending std:: to the functions. 
