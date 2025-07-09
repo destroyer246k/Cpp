@@ -1,0 +1,17 @@
+Aim: To design a Claculator to add,subtract,multiply and divide two user input number.
+Appratus: GNU g++ compiler for local and code editor or Online C++ Compiler
+
+NOTE: This Program is for beginners so it is not full proof to make it full proof you can use if-else statements in division column so that no one will enter 0 in denominator
+
+Program Explaination:
+Inside the main function we declare five float variables. 'a' and 'b' will be used to store the two decimal or integer values the user will enter. The other variables 'sum', 'sub', 'mul', and 'div' will hold the results of three basic arithmetic operations—addition, subtraction, multiplication, and division. 
+They are all declared as float as well in order to allow decimal values. 
+The user is prompted first to enter two numbers through cout and the entered numbers are processed through cin >> a and cin >> b. 
+Once the numbers are entered, the program calculates the various results by adding with sum = a + b; noting the difference with sub = a - b; 
+recording how the two multiplied with mul = a * b; and figuring the quotient with div= a/b; after which all results are stored in their respective variables! 
+After getting your results, the program uses cout << to output each of the resulting variables we used together with a label prior to the statement
+e.g. "Sum:", "Subtraction:", "Multiplication:", and "Division:". Each cout << statement ends with an endl, which allows us to move to the next line for improved readability on the console. 
+Finally, the program completes with a return 0;, as this tells the computer our program has successfully executed without incident.
+
+Conclusion:
+This Program will help in understaing of diffrent arithmetic operation in C++ and will give short idea on how we can built programs in C++.
