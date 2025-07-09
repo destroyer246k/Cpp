@@ -1,1 +1,18 @@
+Aim: To learn How input and Output works in c++.
+Apparatus: GNU gcc Compiler for c++ if running locally, Code Editor any(like VS code) or Online C++ compiler
+
+Program Explaination:
+The program starts with #include. The purpose of this line is to include the iostream header file that allows the programmer to use input and output operations, mainly cout, cin, etc., in C++. The compiler will not recognize standard input and output commands, if the programmer does not include the library. 
+Next, we write using namespace std;. The std abbreviation means "standard," which refers to the standard namespace in which all C++ library functions (cout, cin, endl, etc.) belong. When we use using namespace std;, it allows the programmer to use all of the standard functions without using the std::notation, i.e. we just write cout instead of std::cout.
+The main function of the program begins with int main(), which is a part of every C++ program that denotes where to start executing code. The execution starting point is defined here. The first statement in the main function is std::cout << "Welcome to C++ Programming!" << endl;. Even though we have written using namespace std;, the std::cout is utilized explicitly to show the user that this function belongs to the standard namespace. This statement will print the statement "Welcome to C++ Programming!" to the screen then the statement will print the next line, because of the endl command.
+The next line, cout << "Hello World" << endl;, displays "Hello World" to the console and then provides a new line. This is just an example of a simple output statement in C++. 
+After the first output statement, we declare an integer variable with int a;. This variable will be used to take on the value entered by the user. Next, the cout << "Enter a number: "; line will tell the user to enter a number. The cin >> a; statement takes input from the user and assigns the value to the variable a. In fact, cout stands for "console output" and cin stands for "console input". 
+Once the value was inputted, we are able to display the user’s inputted value with cout << "You entered: " << a << endl;. In that line, we are displaying the value found in the variable a. Next, cout << "This is a simple C++ program." << endl; shows a final output that states the program has completed its purpose. 
+Finally, your program ends with return 0;. Since the main() function has a return type of int, it must return an integer. The line of return 0; indicates that the program executed and finished as expected (no errors).
+
+About iostream and std:
+C++ uses the iostream library for any function to do basic input and output. It includes objects like cout to show output and cin to read input. To use these objects, we simply include the library at the top of the program using the command #include. These functions and objects are all included in the standard namespace known as std. Consequently, we can either write std::cout or write the line using namespace std; so that we do not have to repeatedly write std::.
+
+Conclusion:
+This is a straightforward, yet complete example of how to write a C++ program using input and output functions. You will be introduced to important concepts such as headers, namespaces, standard I/O functions, and the basic structure of a C++ program. Understanding this material provides a basis for writing more complex programs in the future.
 
