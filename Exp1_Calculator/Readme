@@ -3,9 +3,22 @@ Appratus: GNU g++ compiler for local and code editor or Online C++ Compiler
 
 NOTE: This Program is for beginners so it is not full proof to make it full proof you can use if-else statements in division column so that no one will enter 0 in denominator
 
+
 Program Explaination:
+NOTE: You may visit youtube for any query related downloading g++ compiler and setting up environment.
+The program begins with #include. The implementation of this code will incorporate the iostream header file where both input and output can take place (in most cases, the commands cout and cin). If this line isn't added to the program, the compiler will not know what the standard input/output commands are at all. 
+Next is the line using namespace std;. The std namespace contains all of the standard library functions available in C++. By writing this line, we can call the functions, cout and cin, without prepending std:: to the functions. 
+The functions run starting with the int main() function. This opens up a function where the program can commence execution. The line std::cout << "Welcome to C++ Programming!" << endl; calls the stdout console to print out a message to the user, followed by endl which moves the cursor down a line (new line). Although we used using namespace std;, we displayed std::cout to show where it is coming from. 
+The next line, cout << "Hello World" << endl;, outputs "Hello World" to the console andmovesthe cursor to the next downward line. The line int a; declared an integer variable to store user input. The line cout << "Enter a number: ";, prompts the user, and then cin >> a;. This line reads the user input and passes that input into variable a. Member thatcin >> requires you to define what type of input will be entered. 
+After the input has been taken, the line cout << "You entered: " << a << endl; prints the entered value of 'a' to the console. Followed by the line cout << "This is a simple C++ program." << endl; for the closing message. 
+Finally, the statement return 0; signifies the end of the program stating successful programming execution, returning to the main() of return type int.
+
+About iostream and std:
+C++ uses the iostream library for any function to do basic input and output. It includes objects like cout to show output and cin to read input. To use these objects, we simply include the library at the top of the program using the command #include. These functions and objects are all included in the standard namespace known as std. Consequently, we can either write std::cout or write the line using namespace std; so that we do not have to repeatedly write std::.
 Inside the main function we declare five float variables. 'a' and 'b' will be used to store the two decimal or integer values the user will enter. The other variables 'sum', 'sub', 'mul', and 'div' will hold the results of three basic arithmetic operations—addition, subtraction, multiplication, and division. 
 They are all declared as float as well in order to allow decimal values. 
+
+About Claculator;
 The user is prompted first to enter two numbers through cout and the entered numbers are processed through cin >> a and cin >> b. 
 Once the numbers are entered, the program calculates the various results by adding with sum = a + b; noting the difference with sub = a - b; 
 recording how the two multiplied with mul = a * b; and figuring the quotient with div= a/b; after which all results are stored in their respective variables! 
