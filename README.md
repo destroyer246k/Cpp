@@ -1,4 +1,4 @@
-# Cpp
+#Hello-World-And-Calculator
 Aim: To print Hello World and design a Claculator to add,subtract,multiply and divide two user input number.
 Appratus: GNU g++ compiler for local and code editor or Online C++ Compiler
 
