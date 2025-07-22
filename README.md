@@ -19,14 +19,43 @@ About iostream and std:
 The main purpose of iostream is to give the programmer a basic method of input/output using cin and cout. 
 The identifiers cin and cout reside in a namespace called std. The programmer has two options to use them: Using std:: in front of the identifiers (for example, std::cout) or using using namespace std; which removes the requirement to prefix std::.
 
-About Calculator:
-Our calculator prompts the user for two float numbers. We declared five float variables (two for user input and three for the result of the arithmetic operations). 
-The variables we created are; a, b for user input and sum, sub, mul, and div for storing the result of our arithmetic commands. 
-The calculator does the following calculations: 
-sum = a + b;
-sub = a - b;
-mul = a * b;
-div = a / b;
+Algorithm
+1. Start the program.
+2. Display a welcome message:
+- Output: Welcome to C++ Programming!
+
+- Output: Hello World
+3. Prompt the user to enter an integer:
+
+-Output: Enter a number:
+
+-Input: User enters an integer value and it is stored in variable x
+
+-Output: You entered: x
+
+
+4. Calculator functionality:
+ Prompt the user to input two numbers:
+
+- Output: Enter number 1: → Input stored in variable a
+
+- Output: Enter number 2: → Input stored in variable b
+
+
+Perform operations:
+sum = a + b
+sub = a - b
+mul = a * b
+div = a / b
+
+
+Display results:
+- Output: Sum: sum
+- Output: Subtraction: sub
+- Output: Multiplication: mul
+- Output: Division: div
+5. End the program.
+
 
 The program then prints each of the calculations in the format of "Sum:" followed by std::endl to print the result of the calculation on a new line. We conclude with return 0; which indicates successful execution of our program.
 
