@@ -30,6 +30,11 @@ int main(){
     cout << "Subtraction: " << sub << endl;
     cout << "Multiplication: " << mul << endl;
     cout << "Division: " << div << endl;
-    return 0;
-    
+    return 0;   
 }
+/*output:
+Welcome to C++ Programming!
+Hello World
+Enter a number: 4
+You entered: 4
+Enter number 1: */
