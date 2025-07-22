@@ -32,9 +32,11 @@ int main(){
     cout << "Division: " << div << endl;
     return 0;   
 }
-/*output:
+/*
+output:
 Welcome to C++ Programming!
 Hello World
 Enter a number: 4
 You entered: 4
-Enter number 1: */
+Enter number 1: 
+*/
